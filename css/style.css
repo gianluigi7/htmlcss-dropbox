@@ -41,14 +41,10 @@
     width: 20%;
 }
 
-.content-h{
-    height: 40px;
-    border: 1px solid red;
-    background-color: aqua;
-} 
+
 .content-j{
     margin: 10px;
-    background-color: bisque;
+    
     border: 1px solid rgb(228, 204, 175);
 }
 .content-a{
@@ -118,3 +114,36 @@ footer{
 .border{
     border: 1px solid rgb(179, 128, 226);
 }
+header button{
+    border: none;
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+    background-color: transparent;
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+h1{
+    font-size: 51px;
+    padding: 0 15px;
+    margin-top: 32px;
+    font-weight: 643;
+}
+.align-v{
+    vertical-align: middle;
+}
+header img{
+    height: 17px;
+
+}
+.justify-r{
+    
+    
+}
+ .blue{
+    background-color: blue;
+    color: white;
+    padding: 4px 6px;
+    
+
+ } 
