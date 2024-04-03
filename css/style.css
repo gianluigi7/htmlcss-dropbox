@@ -53,6 +53,16 @@
     background-color: lightseagreen;
     border: 1px solid rgb(22, 128, 122);
 }
+.content-b{
+    margin: 10px;
+    background-color: rgb(201, 132, 5);
+    border: 1px solid rgb(170, 46, 1);
+}
+.content-c{
+    margin: 10px;
+    background-color: rgb(255, 196, 205);
+    border: 1px solid rgb(255, 150, 166);
+}
 .height500{
     height: 500px;
 }
@@ -62,4 +72,7 @@
 
 .jumbotron{
     background-color: rgba(167, 48, 48, 0.856);
+}
+.margin-bot75{
+    margin-bottom: 75px;
 }
