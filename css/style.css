@@ -11,6 +11,7 @@
 .container-j{
     max-width: 1350px;
     margin: 0 auto;
+    height: 600px;
 }
 .container{
     max-width: 1200px;
@@ -45,7 +46,6 @@
 .content-j{
     margin: 10px;
     
-    border: 1px solid rgb(228, 204, 175);
 }
 .content-a{
     margin: 10px;
@@ -145,5 +145,19 @@ header img{
     color: white;
     padding: 4px 6px;
     
-
  } 
+ .margin-top30{
+   margin-top: 30px;
+ }
+ mark{
+    background-color: blue;
+    color: white;
+    padding: 4px 6px;
+ }
+.img1{
+    height: 450px;
+    position: relative;
+    left: -40px;
+
+
+}
