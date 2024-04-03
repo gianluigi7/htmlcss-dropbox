@@ -66,6 +66,21 @@
     background-color: rgb(255, 196, 205);
     border: 1px solid rgb(255, 150, 166);
 }
+.square-row{
+    display: flex;
+}
+.square{
+    width:calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: rgb(76, 1, 146);
+   
+}
+.smallsquare{
+    height: 50%;
+    width: 50%;
+    
+    background-color: azure;
+}
 .content-f{
     margin: 10px;
     background-color: yellow;
@@ -80,6 +95,9 @@
 .height50{
     height: 50px;
 }
+.heightfull{
+    height: 100%;
+}
 
 .bg-blue{
     background-color: rgba(101, 166, 206, 0.589);
@@ -90,4 +108,13 @@
 footer{
     background-color: black;
     padding: 75px 0;
+}
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid rgb(179, 128, 226);
 }
