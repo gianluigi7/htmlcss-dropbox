@@ -37,6 +37,9 @@
 .col33{
     width: calc(100% / 3);
 }
+.col20{
+    width: 20%;
+}
 
 .content-h{
     height: 40px;
@@ -63,8 +66,16 @@
     background-color: rgb(255, 196, 205);
     border: 1px solid rgb(255, 150, 166);
 }
+.content-f{
+    margin: 10px;
+    background-color: yellow;
+    border: 1px solid rgb(201, 201, 0);
+}
 .height500{
     height: 500px;
+}
+.height300{
+    height: 300px;
 }
 .height50{
     height: 50px;
@@ -75,4 +86,8 @@
 }
 .margin-bot75{
     margin-bottom: 75px;
+}
+footer{
+    background-color: black;
+    padding: 75px 0;
 }
