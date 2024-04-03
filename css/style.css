@@ -70,8 +70,8 @@
     height: 50px;
 }
 
-.jumbotron{
-    background-color: rgba(167, 48, 48, 0.856);
+.bg-blue{
+    background-color: rgba(101, 166, 206, 0.589);
 }
 .margin-bot75{
     margin-bottom: 75px;
