@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container-max{
+   width: 100%;
+   margin: 10px 0;
+}
+.container{
+
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.col50{
+    width: 50%;
+}
+.col100{
+ width: 100%;
+}
+.col60{
+    width: 60%;
+}
+.col40{
+    width: 40%;
+}
+
+.content-h{
+    height: 60px;
+    border: 1px solid red;
+    background-color: aqua;
+}    
+.contentj{
+    height: 500px;
+
+}
+.containerl{
+    max-width: 1500px;
+}
