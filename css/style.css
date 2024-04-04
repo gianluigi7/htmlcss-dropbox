@@ -119,6 +119,8 @@ header button{
     font-size: 12px;
     color: rgb(146, 146, 146);
     background-color: transparent;
+    padding: 0 6px;
+    vertical-align: middle;
 }
 body{
     font-family: Poppins, sans-serif;
@@ -134,11 +136,8 @@ h1{
 }
 header img{
     height: 17px;
+    vertical-align: middle;
 
-}
-.justify-r{
-    
-    
 }
  .blue{
     background-color: blue;
@@ -160,4 +159,6 @@ header img{
     left: -40px;
 
 
+} .text-align{
+    text-align: right;
 }
