@@ -9,9 +9,9 @@
    margin: 10px 0;
 } 
 .container-j{
-    max-width: 1350px;
+    max-width: 1300px;
     margin: 0 auto;
-    height: 600px;
+    
 }
 .container{
     max-width: 1200px;
@@ -29,6 +29,9 @@
 .col100{
  width: 100%;
 }
+.col70{
+    width: 70%;
+}
 .col60{
     width: 60%;
 }
@@ -38,6 +41,9 @@
 .col33{
     width: calc(100% / 3);
 }
+.col30{
+    width: 30%;
+}
 .col20{
     width: 20%;
 }
@@ -45,6 +51,7 @@
 
 .content-j{
     margin: 10px;
+    position: relative;
     
 }
 .content-a{
@@ -126,7 +133,7 @@ body{
     font-family: Poppins, sans-serif;
 }
 h1{
-    font-size: 51px;
+    font-size: 58px;
     padding: 0 15px;
     margin-top: 32px;
     font-weight: 643;
@@ -155,10 +162,21 @@ header img{
  }
 .img1{
     height: 450px;
-    position: relative;
-    left: -40px;
+    position: absolute;
+    width: 100%;
+    
 
 
 } .text-align{
     text-align: right;
+}
+.arrow{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+
+.mt25{
+    margin-top: 25px;
 }
