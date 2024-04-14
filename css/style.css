@@ -45,7 +45,9 @@
     width: 30%;
 }
 .col20{
-    width: 20%;
+    width: calc(100% / 5 - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 
@@ -103,7 +105,7 @@
 }
 
 .bg-blue{
-    background-color: rgba(101, 166, 206, 0.589);
+    background-color: #b4d0e7;
 }
 .margin-bot75{
     margin-bottom: 75px;
@@ -280,3 +282,108 @@ h2{
     top: 10px;
     right: -350px;
  }
+#operazioni img {
+    width: 100%;
+ }
+ #contatto img {
+    width: 100%;
+ }
+ #contatto button {
+   border: 1px solid rgba(114, 114, 114, 0.918);
+   padding: 7px;
+   margin-top: 20px;
+   color: rgba(114, 114, 114, 0.918);
+   background-color: transparent;
+ }
+ 
+ body p {
+    font-size: 14px;
+    
+ }
+ .pl-30 {
+    padding-left: 30px;
+ }
+ #operazioni h2 {
+    margin-bottom: 40px;
+ }
+
+ #operazioni .col33{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+ }
+
+ #operazioni {
+    margin-bottom: 150px;
+ }
+ #business button {
+    background-color: white;
+    padding: 15px 40px;
+    border: none;
+    margin-top: 15px;
+    font-size: 22px;
+ }
+ #business h2 {
+    font-size: 40px;
+ }
+ .py-200 {
+    padding: 170px 0;
+ }
+ .bordeaux {
+    color:  #61082b;
+ }
+ .mt-150 {
+    margin-top: 150px;
+ }
+ #business li {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 50px 0;
+    border-top: 1px solid black;
+    display: flex;
+ }
+ #business li:last-child{
+    
+    border-bottom: 1px solid black;
+ }
+ #business ul {
+    margin-top: 70px;
+ }
+ #business i {
+    align-self: flex-end;
+    margin-right: 50px;
+ }
+
+ #business {
+    margin-bottom: 150px;
+ }
+
+ footer h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+ }
+ footer li {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 18px;
+ }
+ h5:last-child {
+    border-top: 1px solid white;
+    width: 13%;
+    margin-left: 15px;
+    padding-top: 50px;
+    font-weight: 200;
+    color: #999999;
+    
+ }
+ .fa-solid.fa-sort-up {
+    padding-left: 6px;
+    
+ }
+.fa-solid.fa-earth-europe {
+    padding-right: 12px;
+}
+
+
+ 
